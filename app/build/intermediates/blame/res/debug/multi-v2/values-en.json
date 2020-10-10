@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\LTProject\\Sleep\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\appcpi-pc001\\.gradle\\caches\\transforms-2\\files-2.1\\439b8443225156b69d4fe2da7ecf086b\\jetified-BaseRecyclerViewAdapterHelper-3.0.4\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,122,178,241",
+                        "endColumns": "66,55,62,52",
+                        "endOffsets": "117,173,236,289"
+                    }
+                }
+            ]
+        }
+    ]
+}

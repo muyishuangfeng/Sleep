@@ -1,0 +1,243 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gnetop.letui.sleep"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+11-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:5:5-79
+11-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+12-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:6:5-79
+12-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 用于访问网络，网络定位需要上网 -->
+13-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:7:5-76
+13-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 用于写入缓存数据到扩展存储卡 -->
+14-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:8:5-76
+14-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:8:22-73
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:9:5-67
+15-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+16-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:10:5-89
+16-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:10:22-86
+17    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+17-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:11:5-83
+17-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:11:22-80
+18    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+18-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:12:5-79
+18-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:13:5-81
+19-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:14:5-80
+20-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:14:22-77
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:15:5-66
+21-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:15:22-63
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:16:5-71
+22-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:16:22-68
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:17:5-65
+23-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:17:22-62
+24    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+24-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:18:5-79
+24-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:18:22-76
+25    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+25-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:19:5-95
+25-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:19:22-92
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:15:5-66
+26-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:15:22-63
+27    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+27-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:15:5-17:47
+27-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:16:9-68
+28
+29    <application
+29-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:22:5-66:19
+30        android:name="com.gnetop.letui.sleep.common.APP"
+30-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:23:9-35
+31        android:allowBackup="true"
+31-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:24:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.3.1] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\3fad7ea4f0b845c6f6667debb95e1494\core-1.3.1\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:25:9-43
+35        android:label="@string/app_name"
+35-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:26:9-41
+36        android:networkSecurityConfig="@xml/network_security_config"
+36-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:27:9-69
+37        android:requestLegacyExternalStorage="true"
+37-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:21:9-52
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:28:9-54
+39        android:supportsRtl="true"
+39-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:29:9-35
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme" >
+41-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:30:9-40
+42        <meta-data
+42-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:33:9-35:35
+43            android:name="android.max_aspect"
+43-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:34:13-46
+44            android:value="2.4" /> <!-- 适配华为（huawei）刘海屏 -->
+44-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:35:13-32
+45        <meta-data
+45-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:36:9-38:36
+46            android:name="android.notch_support"
+46-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:37:13-49
+47            android:value="true" /> <!-- 适配小米（xiaomi）刘海屏 -->
+47-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:38:13-33
+48        <meta-data
+48-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:39:9-41:50
+49            android:name="notch.config"
+49-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:40:13-40
+50            android:value="portrait|landscape" />
+50-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:41:13-47
+51        <meta-data
+51-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:42:9-44:35
+52            android:name="design_width_in_dp"
+52-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:43:13-46
+53            android:value="375" />
+53-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:44:13-32
+54        <meta-data
+54-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:45:9-47:35
+55            android:name="design_height_in_dp"
+55-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:46:13-47
+56            android:value="667" />
+56-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:47:13-32
+57
+58        <activity android:name="com.gnetop.letui.sleep.widget.activity.FeedbackActivity" />
+58-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:49:9-70
+58-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:49:19-67
+59        <activity android:name="com.gnetop.letui.sleep.widget.activity.CustomActivity" />
+59-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:50:9-68
+59-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:50:19-65
+60        <activity android:name="com.gnetop.letui.sleep.widget.activity.RechargeActivity" />
+60-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:51:9-70
+60-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:51:19-67
+61        <activity android:name="com.gnetop.letui.sleep.widget.activity.UserActivity" />
+61-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:52:9-66
+61-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:52:19-63
+62        <activity android:name="com.gnetop.letui.sleep.widget.activity.MainActivity" />
+62-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:53:9-66
+62-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:53:19-63
+63        <activity android:name="com.gnetop.letui.sleep.widget.activity.LoginActivity" />
+63-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:54:9-67
+63-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:54:19-64
+64        <activity android:name="com.gnetop.letui.sleep.widget.activity.SplashActivity" >
+64-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:55:9-61:20
+64-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:55:19-65
+65            <intent-filter>
+65-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:56:13-60:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:57:17-69
+66-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:57:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:59:17-77
+68-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:59:27-74
+69            </intent-filter>
+70        </activity>
+71
+72        <receiver
+72-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:63:9-65:41
+73            android:name="com.gnetop.letui.sleep.receiver.AlarmClockReceiver"
+73-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:64:13-56
+74            android:process=":remote" />
+74-->F:\LTProject\Sleep\app\src\main\AndroidManifest.xml:65:13-38
+75
+76        <activity
+76-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:23:9-27:54
+77            android:name="com.huantansheng.easyphotos.ui.EasyPhotosActivity"
+77-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:24:13-77
+78            android:configChanges="orientation|keyboardHidden|screenSize"
+78-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:25:13-74
+79            android:screenOrientation="portrait"
+79-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:26:13-49
+80            android:theme="@style/EasyPhotosTheme" />
+80-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:27:13-51
+81        <activity
+81-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:28:9-32:64
+82            android:name="com.huantansheng.easyphotos.ui.PreviewActivity"
+82-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:29:13-74
+83            android:configChanges="orientation|keyboardHidden|screenSize"
+83-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:30:13-74
+84            android:screenOrientation="portrait"
+84-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:31:13-49
+85            android:theme="@style/EasyPhotosFullscreenTheme" />
+85-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:32:13-61
+86        <activity
+86-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:33:9-38:55
+87            android:name="com.huantansheng.easyphotos.ui.PuzzleActivity"
+87-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:34:13-73
+88            android:configChanges="orientation|keyboardHidden|screenSize"
+88-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:35:13-74
+89            android:screenOrientation="portrait"
+89-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:36:13-49
+90            android:theme="@style/EasyPhotosTheme"
+90-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:37:13-51
+91            android:windowSoftInputMode="adjustPan" />
+91-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:38:13-52
+92        <activity
+92-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:39:9-43:54
+93            android:name="com.huantansheng.easyphotos.ui.PuzzleSelectorActivity"
+93-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:40:13-81
+94            android:configChanges="orientation|keyboardHidden|screenSize"
+94-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:41:13-74
+95            android:screenOrientation="portrait"
+95-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:42:13-49
+96            android:theme="@style/EasyPhotosTheme" /> <!-- 权限页面 -->
+96-->[com.github.HuanTanSheng:EasyPhotos:3.0.6] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\491a3348b588693a4b8212c7ed455832\jetified-EasyPhotos-3.0.6\AndroidManifest.xml:43:13-51
+97        <activity
+97-->[com.github.muyishuangfeng:RequestPermission:1.0.2] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\ce526d34745383ddcc22825847ef72bb\jetified-RequestPermission-1.0.2\AndroidManifest.xml:14:9-17:57
+98            android:name="com.yk.silent.permission.widget.activity.PermissionActivity"
+98-->[com.github.muyishuangfeng:RequestPermission:1.0.2] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\ce526d34745383ddcc22825847ef72bb\jetified-RequestPermission-1.0.2\AndroidManifest.xml:15:13-87
+99            android:configChanges="orientation|keyboardHidden"
+99-->[com.github.muyishuangfeng:RequestPermission:1.0.2] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\ce526d34745383ddcc22825847ef72bb\jetified-RequestPermission-1.0.2\AndroidManifest.xml:16:13-63
+100            android:theme="@style/CustomTheme_Dialog" />
+100-->[com.github.muyishuangfeng:RequestPermission:1.0.2] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\ce526d34745383ddcc22825847ef72bb\jetified-RequestPermission-1.0.2\AndroidManifest.xml:17:13-54
+101
+102        <provider
+102-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\66682bac27f64bb463b438dc006b709f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+103            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+103-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\66682bac27f64bb463b438dc006b709f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+104            android:authorities="com.gnetop.letui.sleep.lifecycle-process"
+104-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\66682bac27f64bb463b438dc006b709f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+105            android:exported="false"
+105-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\66682bac27f64bb463b438dc006b709f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+106            android:multiprocess="true" />
+106-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\66682bac27f64bb463b438dc006b709f\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+107
+108        <service
+108-->[androidx.room:room-runtime:2.2.5] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\dc134f7c7c0cdfbb5f4a8b70f7dbf478\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+109            android:name="androidx.room.MultiInstanceInvalidationService"
+109-->[androidx.room:room-runtime:2.2.5] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\dc134f7c7c0cdfbb5f4a8b70f7dbf478\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+110            android:directBootAware="true"
+110-->[androidx.room:room-runtime:2.2.5] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\dc134f7c7c0cdfbb5f4a8b70f7dbf478\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+111            android:exported="false" />
+111-->[androidx.room:room-runtime:2.2.5] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\dc134f7c7c0cdfbb5f4a8b70f7dbf478\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+112
+113        <provider
+113-->[me.jessyan:autosize:1.1.2] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\c32703bca974455285d6155d438a1b43\jetified-autosize-1.1.2\AndroidManifest.xml:12:9-16:43
+114            android:name="me.jessyan.autosize.InitProvider"
+114-->[me.jessyan:autosize:1.1.2] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\c32703bca974455285d6155d438a1b43\jetified-autosize-1.1.2\AndroidManifest.xml:13:13-60
+115            android:authorities="com.gnetop.letui.sleep.autosize-init-provider"
+115-->[me.jessyan:autosize:1.1.2] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\c32703bca974455285d6155d438a1b43\jetified-autosize-1.1.2\AndroidManifest.xml:14:13-74
+116            android:exported="false"
+116-->[me.jessyan:autosize:1.1.2] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\c32703bca974455285d6155d438a1b43\jetified-autosize-1.1.2\AndroidManifest.xml:15:13-37
+117            android:multiprocess="true" />
+117-->[me.jessyan:autosize:1.1.2] C:\Users\appcpi-pc001\.gradle\caches\transforms-2\files-2.1\c32703bca974455285d6155d438a1b43\jetified-autosize-1.1.2\AndroidManifest.xml:16:13-40
+118    </application>
+119
+120</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="feedBack"
+            type="com.gnetop.letui.sleep.model.FeedBackImgModel" />
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="@dimen/dp_75"
+        android:layout_height="@dimen/dp_75">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_item_add_node"
+            android:layout_width="@dimen/dp_70"
+            android:layout_height="@dimen/dp_70"
+            android:layout_gravity="bottom"
+            android:background="@drawable/edit_white_bg"
+            android:scaleType="centerCrop"
+            app:imageUrl="@{feedBack.imgUrl}" />
+
+        <Button
+            android:id="@+id/btn_item_node_delete"
+            android:layout_width="@dimen/dp_15"
+            android:layout_height="@dimen/dp_15"
+            android:layout_gravity="end"
+            android:background="@drawable/ic_delete_icon" />
+    </FrameLayout>
+</layout>

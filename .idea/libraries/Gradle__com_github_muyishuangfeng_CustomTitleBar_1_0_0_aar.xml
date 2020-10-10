@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.muyishuangfeng:CustomTitleBar:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b75e2ba048537b63d59885a0f74a8d4c/jetified-CustomTitleBar-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b75e2ba048537b63d59885a0f74a8d4c/jetified-CustomTitleBar-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b75e2ba048537b63d59885a0f74a8d4c/jetified-CustomTitleBar-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.muyishuangfeng/CustomTitleBar/1.0.0/aa9dd937fd02ef04a834be28ff7894360ee9f4d5/CustomTitleBar-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.muyishuangfeng/CustomTitleBar/1.0.0/ef235be7b50e8863de3396942bc4f4ec17ebd98d/CustomTitleBar-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

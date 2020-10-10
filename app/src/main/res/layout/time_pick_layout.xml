@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f7f7f7"
+    android:orientation="horizontal">
+
+    <com.gnetop.letui.sleep.ui.datetime.time.HourPicker
+        android:id="@+id/hourPicker_layout_time"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:halfVisibleItemCount="2"
+        app:indicatorText="@string/text_hour"
+        app:indicatorTextSize="@dimen/sp_12"
+        app:wheelCyclic="true" />
+
+    <com.gnetop.letui.sleep.ui.datetime.time.MinutePicker
+        android:id="@+id/minutePicker_layout_time"
+        android:layout_width="@dimen/dp_0"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:halfVisibleItemCount="2"
+        app:indicatorText="@string/text_minute"
+        app:indicatorTextSize="@dimen/sp_12"
+        app:wheelCyclic="true" />
+
+</LinearLayout>
